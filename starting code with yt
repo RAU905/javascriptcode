@@ -1,0 +1,22 @@
+let arr = [1, 2, 34, 54, 100, 10, 1, 87, 1827, 100000];
+//let n = 55;
+// do {
+//   arr.push(n);
+// } while ((n = !0));
+
+// arr.push(454);
+// console.log(arr);
+let p = arr.filter((value) => {
+  return value % 10 == 0;
+});
+console.log(p);
+
+let s = arr.map((elem) => {
+  return elem * elem;
+});
+console.log(s);
+
+let r = arr.reduce((q, w) => {
+  return q * w;
+});
+console.log(r);
