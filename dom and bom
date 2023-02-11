@@ -1,0 +1,22 @@
+var u = 0;
+let number = Math.floor(Math.random() * 100);
+// let number = 78;
+console.log(number);
+let y = 69;
+
+u = u + 1;
+if (y == number) {
+  console.log(" yes u are right your score is " + (100 - u));
+} else if (y < number) {
+  console.log(
+    " u enterd a wrongnumber  try again  the nuber is gretaer than " + y
+  );
+} else if (y > number) {
+  console.log(
+    " u enterd a wrongnumber  try again  the nuber is less than " + y
+  );
+  // elseif (y>100){
+}
+// else {
+//   console.log(" enter a nuumber between 0 and 100");
+// }
